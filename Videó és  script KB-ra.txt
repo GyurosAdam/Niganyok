@@ -17,3 +17,4 @@ A hálózaton belül minden elér mindent, nézzünk meg egy két pingelést:
 Az A épület 1. emeleti szerveréről pingeljük meg a B épület Főnöki gépét.
 Most pingeljük meg a 2. emeleti főnöki gépről az első emelet switchét.
 
+Köszönjük szépen a figyelmet. Ha bármi hibát észre vett kérem tegye meg. További szép napot kivánunk.
