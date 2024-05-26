@@ -1,0 +1,19 @@
+AI-al kéne hozzávágni + a videó alapján még kibővíteni:
+
+https://mega.nz/file/H6BX3ZKR#7UKNvGVhhTT_9ra7M-Ohr-oUrW1Kj3MZovWXQWieB-A
+
+Sziasztok!
+Ez itt a Nigányok csapata, ahol a Milatech projektünket fogjuk áttekinteni. 
+Először is kezdjük a fizikai topológia bemutatásával.
+2 épület található, egy A és egy B, ahol az A épületben 2 emelet van.
+Az A épület 1. emeletén van 2 számítógépes szoba, 1 rack szekrényes szoba és 1 WC, míg a második emeletén 3 számítógépes szoba, egy pihenő és egy rack szekrényes szoba.
+A B épületben található egy hatalmas WC és 1 szoba, ahol megtalálható a rack szekrény is.
+Át is térhetünk a logikai topológiára, ahol láthatóak a routerek és szerverek mellett a switchek.
+Ezeket az eszközöket jelszóval, ezeken belül exec módos és konzol kábeles jelszavakkal is, ezek mellett továbbá SSH-val lehet hozzájuk csatlakozni.
+Megtalálható 3 VLAN a hálózatban, a 10-es a felhasználóké, míg a 20-as a Főnököké és a 30-as a szervereké.
+2 szerverünk van. Az egyik AAA, DHCP és DNS, a másik pedig HTTP és TFTP funkciókat látja el.
+
+A hálózaton belül minden elér mindent, nézzünk meg egy két pingelést:
+Az A épület 1. emeleti szerveréről pingeljük meg a B épület Főnöki gépét.
+Most pingeljük meg a 2. emeleti főnöki gépről az első emelet switchét.
+
